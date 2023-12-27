@@ -1,6 +1,6 @@
-**Flipkart Product Comparison App and price drop alert**
+#Flipkart Product Comparison App and price drop alert
 
-Project Overview:
+###Project Overview:
 
 This project aims to scrape mobile phone data from Flipkart and provide insights into the best-rated, storage, battery, and overall best mobile phones within a specific budget. The data is extracted using web scraping techniques, and the results are displayed based on various criteria.
 The dropAlert.py script is designed to track the price drop of a specific product on Flipkart and send an email notification to the user when the product's price falls below a specified target price.
@@ -8,7 +8,7 @@ The dropAlert.py script is designed to track the price drop of a specific produc
 ![Capture2](https://github.com/AmanKumar2626/Flipkart-Smartphone-comparison-and-price-drop-alert/assets/92772172/31f8a8c4-44d6-476c-ac8f-1a7333af2c6a)
 
 
-Features:
+###Features:
 
 1. Web Scraping:
    - Utilizes Selenium and BeautifulSoup for web scraping Flipkart to gather information on mobile phones.
@@ -34,7 +34,7 @@ Features:
    - Continuously checks the product's price at regular intervals (every 24 hours).
    - Runs indefinitely until the current price falls below the user's specified target price.
 
-How to Use:
+###How to Use:
 
 1. Dependencies:
    - Install the required Python libraries using the following:
@@ -72,10 +72,10 @@ How to Use:
 Note:
 - The script may need adjustments based on Flipkart's website changes, and users are encouraged to review and modify the code accordingly.
 
-Additional Information:
+###Additional Information:
 
 - The project uses Python, Selenium, BeautifulSoup, and Pandas for web scraping, data extraction, and analysis.
 - Make sure to comply with Flipkart's terms of service and policies while using web scraping techniques on their website.
 - The code includes error handling for potential issues like pop-ups, making it robust for varied situations.
 
-Disclaimer: This project is for educational purposes only, and users are responsible for adhering to the terms of service of any website they interact with using web scraping.
+###Disclaimer: This project is for educational purposes only, and users are responsible for adhering to the terms of service of any website they interact with using web scraping.
