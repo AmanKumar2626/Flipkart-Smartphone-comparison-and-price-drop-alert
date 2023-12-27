@@ -1,4 +1,4 @@
-Flipkart Product Comparison App and price drop alert
+**Flipkart Product Comparison App and price drop alert**
 
 Project Overview:
 
